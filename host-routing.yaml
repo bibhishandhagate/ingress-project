@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: doctor.makestudio.info
+    - host: doctor.bibhishan.click
       http:
         paths:
           - path: /
@@ -17,7 +17,7 @@ spec:
                 name: doctorapp-svc
                 port:
                   number: 8081
-    - host: gym.makestudio.info
+    - host: gym.bibhishan.click
       http:
         paths:
           - path: /
