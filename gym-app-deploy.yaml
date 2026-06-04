@@ -17,7 +17,7 @@ spec:
           image: 8072388539/gymapp:v1
           ports:
           - containerPort: 80
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       type: webapp
